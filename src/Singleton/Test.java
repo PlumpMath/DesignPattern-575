@@ -15,5 +15,4 @@ public class Test {
 		Singleton singleton2 = Singleton.getInstance();
 		System.out.println(singleton2.getKey());		
 	}
-
 }
