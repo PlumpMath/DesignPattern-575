@@ -13,9 +13,5 @@ public abstract class Test {
 		 * String id = mAdapter.getTID();
 		 * String tel = mAdapter.getTel();
 		 */
-		HashMap hashmap = new HashMap();
-		hashmap.put("a", "abc");
-		hashmap.put("a", "abc");
-		hashmap.
 	}
 }
