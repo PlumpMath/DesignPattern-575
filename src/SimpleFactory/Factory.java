@@ -1,4 +1,4 @@
-package SimpleFactory;
+package simpleFactory;
 
 public class Factory {
 	public static <T extends Product>T produce(Class c){

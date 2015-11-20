@@ -1,4 +1,4 @@
-package Observer;
+package observer;
 
 public class SubjectImpl extends Subject{
 	public void start(){

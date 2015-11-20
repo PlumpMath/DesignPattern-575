@@ -1,4 +1,4 @@
-package DelayFactory;
+package delayFactory;
 
 public class Product2 implements Product{
 	@Override 

@@ -1,4 +1,4 @@
-package SimpleFactory;
+package simpleFactory;
 
 public class Product2 implements Product {
 	@Override

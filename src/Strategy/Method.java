@@ -1,4 +1,4 @@
-package Strategy;
+package strategy;
 
 interface Method {
 	public abstract void doMethod(); 

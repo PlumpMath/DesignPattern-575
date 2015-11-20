@@ -1,4 +1,4 @@
-package SimpleFactory;
+package simpleFactory;
 
 public class Test {
 	public static void main(String[] args){

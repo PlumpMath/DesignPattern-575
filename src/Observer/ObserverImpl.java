@@ -1,4 +1,4 @@
-package Observer;
+package observer;
 
 public class ObserverImpl implements Observer{
 	@Override

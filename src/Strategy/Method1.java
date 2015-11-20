@@ -1,4 +1,4 @@
-package Strategy;
+package strategy;
 
 public class Method1 implements Method{
 	@Override
