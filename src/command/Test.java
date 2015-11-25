@@ -10,7 +10,7 @@ public class Test {
 		command = new ConcreteCommand2();
 		invoker.setCommand(command);
 		invoker.action();
-		
+
 	}
 
 }
