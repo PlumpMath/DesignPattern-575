@@ -5,7 +5,6 @@ package builder_1;
  * 2 在构造对象参数时，如果出现错误，很难定位。
  * 3 对象的属性只有在build时指定，之后类内不提供setter方法，可以保证安全。
  * @author Tong
- *
  */
 public class Book {
 	private final int id;
