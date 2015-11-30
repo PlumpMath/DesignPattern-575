@@ -1,6 +1,6 @@
 package builder_2;
 
-public class ConcreteProduct extends Builder{
+public class ConcreteBuilder extends Builder{
 	Product product = new Product();
 	@Override
 	void setPart() {
