@@ -1,6 +1,6 @@
 package abstractFactory;
 
-public class Creator2 extends Creator{
+public class Creator2 extends Creator {
 
 	@Override
 	public Product createProductA() {
@@ -15,5 +15,5 @@ public class Creator2 extends Creator{
 		System.out.println("-----Created by No.1-----");
 		return new ProductB();
 	}
-	
+
 }

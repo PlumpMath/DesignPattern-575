@@ -1,6 +1,6 @@
 package template;
 
-public class Benz extends Car{
+public class Benz extends Car {
 
 	@Override
 	void start() {
@@ -10,13 +10,13 @@ public class Benz extends Car{
 	@Override
 	void alarm() {
 		System.out.println("Benz alarm.");
-		
+
 	}
 
 	@Override
 	void stop() {
 		System.out.println("Benz stop.");
-		
+
 	}
 
 	@Override
@@ -25,5 +25,5 @@ public class Benz extends Car{
 		alarm();
 		stop();
 	}
-	
+
 }

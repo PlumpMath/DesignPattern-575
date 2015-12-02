@@ -1,6 +1,6 @@
 package template;
 
-public class BMW extends Car{
+public class BMW extends Car {
 
 	@Override
 	void start() {

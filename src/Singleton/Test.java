@@ -11,8 +11,8 @@ public class Test {
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}	
+		}
 		Singleton singleton2 = Singleton.getInstance();
-		System.out.println(singleton2.getKey());		
+		System.out.println(singleton2.getKey());
 	}
 }

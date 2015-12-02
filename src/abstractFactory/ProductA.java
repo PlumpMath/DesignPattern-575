@@ -1,6 +1,6 @@
 package abstractFactory;
 
-public class ProductA extends Product{
+public class ProductA extends Product {
 
 	@Override
 	public void doSomething() {

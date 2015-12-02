@@ -1,10 +1,10 @@
 package abstractFactory;
 
-public class ProductB extends Product{
+public class ProductB extends Product {
 
 	@Override
 	public void doSomething() {
 		// TODO Auto-generated method stub
-		System.out.println("-----Product B do sth.");		
+		System.out.println("-----Product B do sth.");
 	}
 }

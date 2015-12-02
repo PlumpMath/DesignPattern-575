@@ -1,5 +1,5 @@
 package strategy;
 
 interface Method {
-	public abstract void doMethod(); 
+	public abstract void doMethod();
 }

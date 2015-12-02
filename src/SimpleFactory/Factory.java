@@ -1,15 +1,14 @@
 package simpleFactory;
 
 public class Factory {
-	public static <T extends Product>T produce(Class c){
+	public static <T extends Product> T produce(Class c) {
 		Product product = null;
-		try{
-			product = (Product)Class.forName(c.getName()).newInstance();
-		}
-		catch(Exception ex){
+		try {
+			product = (Product) Class.forName(c.getName()).newInstance();
+		} catch (Exception ex) {
 			System.out.println("Error");
 		}
-		return (T)product;
+		return (T) product;
 	}
 
 }

@@ -5,6 +5,6 @@ public class Test {
 		MyContext myContext = new MyContext(new Method1());
 		myContext.solve();
 		myContext.setMethod(new Method2());
-		myContext.solve();		
-		}
+		myContext.solve();
+	}
 }

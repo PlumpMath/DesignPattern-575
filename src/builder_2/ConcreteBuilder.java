@@ -1,7 +1,8 @@
 package builder_2;
 
-public class ConcreteBuilder extends Builder{
+public class ConcreteBuilder extends Builder {
 	Product product = new Product();
+
 	@Override
 	void setPart() {
 		// TODO Auto-generated method stub
@@ -13,9 +14,11 @@ public class ConcreteBuilder extends Builder{
 		System.out.println("Step n-1");
 		System.out.println("Step n");
 	}
-	public Product build(){
+
+	public Product build() {
 		return this.product;
 	}
+
 	@Override
 	public void check() {
 		// TODO Auto-generated method stub
